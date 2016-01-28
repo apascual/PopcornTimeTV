@@ -12,10 +12,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Lifecycle
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        self.window?.rootViewController = PlayerView()
-        self.window?.makeKeyAndVisible()
-        forceTopShelfUpdate()
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+////        self.window?.rootViewController = PlayerView()
+//        self.window?.rootViewController = MainView()
+//        self.window?.makeKeyAndVisible()
+//        forceTopShelfUpdate()
         return true
     }
     
